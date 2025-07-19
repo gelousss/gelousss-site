@@ -1,0 +1,49 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #fdfaf6;
+  color: #3c2f2f;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #f1e9e3;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px dashed #cabdb5;
+}
+.tagline {
+  font-size: 1.2rem;
+  color: #6a4e4e;
+}
+.magic {
+  font-style: italic;
+  color: #8a6688;
+}
+section {
+  padding: 2rem;
+}
+.about-img {
+  max-width: 200px;
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto 1rem;
+}
+ul {
+  list-style-type: "✧ ";
+  padding-left: 1.5rem;
+}
+.familiars-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.familiars-grid img {
+  width: 150px;
+  border-radius: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f1e9e3;
+  font-size: 0.9rem;
+}
